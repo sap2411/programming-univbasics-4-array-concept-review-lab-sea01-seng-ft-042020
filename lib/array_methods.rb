@@ -19,9 +19,12 @@ def find_max_value(array)
    n = array[counter]
    if array[counter] > array[counter+u]
      q = array[counter]
-     
-     
+     u += 1 
+  else array[counter] < array[counter+u]
+    array[counter+]
     counter +=1
+  end
+  p
 end
 
 def find_min_value(array)
