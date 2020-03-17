@@ -1,4 +1,4 @@
-def find_element_index(array, value_to_find)
+def ndex(array, value_to_find)
   counter = 0 
   while array[counter] do
   if value_to_find == array[counter]
@@ -10,6 +10,7 @@ end
 end
 end
 
+// find_element_index
 
 def find_max_value(array)
   # Add your solution here
