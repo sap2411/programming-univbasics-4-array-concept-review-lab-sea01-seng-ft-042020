@@ -10,6 +10,7 @@ def ndex(array, value_to_find)
   counter += 1
 end
 end
+counter -=1
 p counter
 end
 
