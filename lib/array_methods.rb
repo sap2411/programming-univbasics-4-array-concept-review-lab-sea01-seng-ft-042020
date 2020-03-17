@@ -16,7 +16,6 @@ def find_max_value(array)
   counter = 0
   q = 1
   while array[counter] do
-   n = array[counter]
   if array[counter] > q
      q = array[counter]
     counter +=1
@@ -34,13 +33,12 @@ def find_min_value(array)
    counter = 0
   q = 100000
   while array[counter] do
-   n = array[counter]
   if array[counter] < q
      q = array[counter]
     counter +=1
     p q
      
-  else array[counter] < q
+  else array[counter] > q
     counter +=1
   end
 end
