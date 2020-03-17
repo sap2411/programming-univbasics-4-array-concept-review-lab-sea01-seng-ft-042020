@@ -3,12 +3,13 @@ def find_element_index(array, value_to_find)
   while array[counter] do
   if value_to_find == array[counter]
     p counter
-    counter +=1
+  else
+    
 end
+counter +=1
 end
 end
 
-// find_element_index
 
 def find_max_value(array)
   # Add your solution here
