@@ -8,7 +8,7 @@ def find_element_index(array, value_to_find)
     counter +=1
 end
 end
-p counter
+p counter if value_to_find == array[counter]
 end
 
 
