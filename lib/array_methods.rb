@@ -15,7 +15,7 @@ end
 def find_max_value(array)
   counter = 0
   u = 1
-  while array[counter+1] do
+  while array[counter] do
    n = array[counter]
   if array[counter] > array[counter+u]
      q = array[counter]
