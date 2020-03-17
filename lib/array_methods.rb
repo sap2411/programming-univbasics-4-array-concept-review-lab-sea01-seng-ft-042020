@@ -31,5 +31,18 @@ end
 
 
 def find_min_value(array)
- 
+   counter = 0
+  q = 100000
+  while array[counter] do
+   n = array[counter]
+  if array[counter] < q
+     q = array[counter]
+    counter +=1
+    p q
+     
+  else array[counter] < q
+    counter +=1
+  end
+end
+  p q
 end
