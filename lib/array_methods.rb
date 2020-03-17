@@ -13,7 +13,8 @@ end
 
 
 def find_max_value(array)
-  # Add your solution here
+  while array[counter] do
+    counter +=1
 end
 
 def find_min_value(array)
