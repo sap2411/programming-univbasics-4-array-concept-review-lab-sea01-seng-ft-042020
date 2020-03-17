@@ -1,10 +1,10 @@
 def ndex(array, value_to_find)
   counter = 0 
   while array[counter] do
-  if (value_to_find = array[counter])
+  if value_to_find == array[counter]
     p counter
     counter +=1
-  else ()
+  else
    puts nil
   counter += 1
 end
