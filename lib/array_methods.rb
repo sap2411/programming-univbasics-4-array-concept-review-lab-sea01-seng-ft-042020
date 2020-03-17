@@ -3,11 +3,12 @@ def find_element_index(array, value_to_find)
   while array[counter] do
   if value_to_find == array[counter]
     p counter
+  break
   else
-    
+    counter +=1
 end
-counter +=1
 end
+p counter
 end
 
 
