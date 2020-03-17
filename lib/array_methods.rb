@@ -14,14 +14,14 @@ end
 
 def find_max_value(array)
   counter = 0
-  u = 1
+  q = 1
   while array[counter] do
    n = array[counter]
-  if array[counter] > counter
+  if array[counter] > q
      q = array[counter]
-     u += 1 
+    counter +=1
      
-  else array[counter] < array[counter+u]
+  else array[counter] < u
     q = array[counter+u]
     counter +=1
     u = 1
