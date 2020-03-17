@@ -4,6 +4,7 @@ def ndex(array, value_to_find)
   if value_to_find == array[counter]
     p counter
     counter +=1
+    
   else
    puts nil
   counter += 1
