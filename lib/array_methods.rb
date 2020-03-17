@@ -20,11 +20,10 @@ def find_max_value(array)
   if array[counter] > q
      q = array[counter]
     counter +=1
+    p q
      
-  else array[counter] < u
-    q = array[counter+u]
+  else array[counter] < q
     counter +=1
-    u = 1
   end
 end
   p q
